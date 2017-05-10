@@ -1,0 +1,426 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sexta aplicacion</title>
+
+<!--grupo CSS-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<link rel="stylesheet" href="css/tema-app6.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body>
+
+  <div data-role="page" id="Principal" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1> Batalla de Puebla </h1>
+   </div>
+   <div data-role="main" class="ui-content">
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/batallapuebla.jpg" alt="batalla-puebla" title="batalla-puebla" id="wows1_0"/></li>
+		<li><img src="data1/images/batallapuebla2.jpg" alt="batalla-puebla2" title="batalla-puebla2" id="wows1_1"/></li>
+		<li><img src="data1/images/batallapuebla3.jpg" alt="batalla-puebla3" title="batalla-puebla3" id="wows1_2"/></li>
+		<li><img src="data1/images/batallapuebla4.jpg" alt="batalla-puebla4" title="batalla-puebla4" id="wows1_3"/></li>
+		<li><img src="data1/images/batallapuebla5.jpg" alt="batalla-puebla5" title="batalla-puebla5" id="wows1_4"/></li>
+		<li><img src="data1/images/batallapuebla6.jpg" alt="batalla-puebla6" title="batalla-puebla6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/batallapuebla7.jpg" alt="wow slider" title="batalla-puebla7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/batallapuebla8.jpg" alt="batalla-puebla8" title="batalla-puebla8" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="batalla-puebla"><span><img src="data1/tooltips/batallapuebla.jpg" alt="batalla-puebla"/>1</span></a>
+		<a href="#" title="batalla-puebla2"><span><img src="data1/tooltips/batallapuebla2.jpg" alt="batalla-puebla2"/>2</span></a>
+		<a href="#" title="batalla-puebla3"><span><img src="data1/tooltips/batallapuebla3.jpg" alt="batalla-puebla3"/>3</span></a>
+		<a href="#" title="batalla-puebla4"><span><img src="data1/tooltips/batallapuebla4.jpg" alt="batalla-puebla4"/>4</span></a>
+		<a href="#" title="batalla-puebla5"><span><img src="data1/tooltips/batallapuebla5.jpg" alt="batalla-puebla5"/>5</span></a>
+		<a href="#" title="batalla-puebla6"><span><img src="data1/tooltips/batallapuebla6.jpg" alt="batalla-puebla6"/>6</span></a>
+		<a href="#" title="batalla-puebla7"><span><img src="data1/tooltips/batallapuebla7.jpg" alt="batalla-puebla7"/>7</span></a>
+		<a href="#" title="batalla-puebla8"><span><img src="data1/tooltips/batallapuebla8.jpg" alt="batalla-puebla8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+    <div>
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Batalla 4 de Mayo </h2>
+           <p> Se muestra información sobre dicha batalla. </p>
+        </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Batalla 5 de Mayo </h2>
+          <p> Se muestra información sobre dicha batalla. </p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Inicio del conflicto </h2>
+           <p>  Se muestra información sobre como inicio el conflicto. </p>
+        </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Monumentos de la Batallas </h2>
+           <p> Se muestra información de monumentos de estas batallas. </p>
+        </a>
+      </li>     
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Museos de las Batallas</h2>
+           <p> Se muestra información de algunos museos sobre estas batallas.</p>
+        </a>
+       </li>               
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Héroes de estas Batallas  </h2>
+           <p> Se muestra información de algunos héroes de estas batallas.</p>
+        </a>
+       </li> 
+      </ul>  
+    </div>
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+      <div>
+        <img src="imagenes/logo.png" width="50" height="50">
+      </div>  
+      <div>
+         <h4>Aplicación seis </h4>
+         <h4> Juan Luis Vazquez Morales </h4>
+      </div>
+    </div> 
+    </div> 
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Batalla 4 de Mayo </h1>
+     </div>
+     <div data-role="content" align="center">
+       <h3 align="justify"> 
+  <p> La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México. Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.</p>
+       </h3>
+         <div>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/batalla2.jpg',1)"><img src="imagenes/batalla1.jpg" width="100%" height="100%" id="Image8"></a>
+           </div>
+      </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">     
+       <h4> Aplicación seis, JLVM </h4>
+        <img src="imagenes/logo.png" width="50" height="50">
+     </div>
+    </div>
+   </div>
+   
+    <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1> Batalla 5 de Mayo </h1>
+     </div>
+     <div data-role="content" align="center">
+       <h3 align="justify"> 
+ La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. Pese a su éxito, la batalla no impidió la invasión del país, aunque sí que sería la primera batalla de una guerra que finalmente México ganaría.Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días) y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano. Finalmente, ante la incapacidad de consolidar un imperio y después de perder 11 000 hombres debido a la actividad guerrillera que nunca dejó de subsistir, los franceses se retiraron incondicionalmente del país en el año 1867.
+       </h3>
+         <div>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','imagenes/batalla4.jpg',1)"><img src="imagenes/batalla3.jpg" width="100%" height="100%" id="Image2"></a>
+           </div>
+      </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">     
+       <h4> Aplicación seis, JLVM </h4>
+        <img src="imagenes/logo.png" width="50" height="50">
+     </div>
+      </div>    
+     </div> 
+     
+    <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Inicio del Conflicto </h1>
+     </div>
+     <div data-role="content" align="center">
+       <p align="justify"> 
+Antes del 5 de Mayo, el día  28 de abril de 1862 tuvo lugar un enfrentamiento conocido como la Batalla de las Cumbres entre el Ejército Expedicionario Francés y el Ejército Mexicano. En este conflicto hubieron cerca de 500 bajas francesas en contra de apenas 50 bajas mexicanas. Pese a esto, el Ejército Expedicionario francés consigue hacerse con el control del Paso de Acultzingo.
+Después de la Batalla de las Cumbres el conde de Lorencez conservaba su confianza y mandó a decir a Napoleon III que: “Somos tan superiores a los mexicanos en organización, disciplina, raza, moral y refinamiento de sensibilidades, que le ruego anunciarle a Su Majestad Imperial, Napoleón III, que a partir de este momento y al mando de nuestros 6,000 valientes soldados, ya soy dueño de México”
+El 2 de mayo parte el Ejército Expedicionario Francés desde San Agustín del Palmar en Veracruz con rumbo para cruzar la Sierra Madre Oriental y dirigirse hacia Puebla ya que era paso obligado para llegar a la capital del país.
+Cabe señalar que el Partido Conservador apoyaba la Invasión francesa e incluso formaron parte de la guerrilla que atacó en varias ocasiones al Ejército de Oriente.
+Otros generales mexicanos también participaron en la defensa de Puebla como es el caso de  las tropas de Oaxaca dirigidas por Porfirio Díaz. El centro de la línea lo defendió Francisco Lamadrid con las tropas del Estado de México y San Luis Potosí. La izquierda se apoyó en el cerro de Acueyametepec ubicado en el norte de la ciudad y en cuya cumbre se ubicaban los Fuertes de Loreto y Guadalupe, con el general Miguel Negrete a la cabeza de la Segunda División de Infantería.
+El 5 de mayo a las 9:15am aparecen los franceses en el horizonte pero no es sino hasta las 11:15am cuando comienzan las hostilidades anunciándose con un cañonazo desde el Fuerte de Guadalupe y acompañado por los repiques de las campanas de la ciudad.
+       </p>
+         <div>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','imagenes/batalla6.jpg',1)"><img src="imagenes/batalla5.jpg" width="100%" height="100%" id="Image3"></a>
+           </div>
+      </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">     
+       <h4> Aplicación seis, JLVM </h4>
+        <img src="imagenes/logo.png" width="50" height="50">
+     </div>
+      </div>    
+       </div>    
+    </div> 
+    
+   <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>  Monumentos de la Batallas </h1>
+     </div>  
+     <div data-role="content" align="center">
+         <div>
+          <h3 align="left">
+           Estos son algunos monumentos de la Batalla de Puebla:
+           </h3>
+         </div>
+         <div data-role="collapsible" data-content-theme="false">
+             <h1> Monumento Emblemático al 150 Aniversario de la Batalla de Puebla </h1>
+           <div>
+           <h3>
+            Al noreste del zócalo se encuentra un complejo que agrupa diversos espacios para la cultura, educación y recreación; sitio que alberga al “Monumento Emblemático” del 150 Aniversario de la Batalla de Puebla. 
+            Ubicación: De Los Fuertes, Centro, Puebla, México
+           </h3>
+           <br>
+           </div>
+           <div>
+            <img src="imagenes/batalla7.jpg" width="100%" height="100%">
+           </div>
+         </div>
+         <div data-role="collapsible" data-content-theme="false">
+             <h1> Monumento alusivo a la Batalla de Puebla </h1>
+           <div>
+             <h3>
+              Esta es una imagene de los fuertes de loreto y guadalupe en puebla puebla, monumento alusivo a la batalla del 5 de Mayo.
+             </h3>
+           <br>
+           </div>
+           <div>
+             <img src="imagenes/batalla8.jpg" width="100%" height="100%">
+           </div>
+         </div>
+          <div data-role="collapsible" data-content-theme="false">
+             <h1> Homenaje a Antonio Carvajal en la batalla del 4 de Mayo</h1>
+           <div>
+            <h3>
+            La importancia de este acontecimiento es recordar la batalla que se desarrolló en la hacienda Trapera, cercana al molino de San Mateo, en el Valle de Atlixco, la historia que hoy nos ocupa se interrelaciona estrechamente con los acontecimientos de la Batalla de Puebla. Este día conmemoramos la gloriosa Batalla de Atlixco, del 4 de mayo de 1862
+            </h3>
+           <br>
+           </div>
+           <div>
+             <img src="imagenes/batalla9.jpg" width="100%" height="100%">
+           </div>
+         </div>
+          <div data-role="collapsible" data-content-theme="false">
+             <h1> Monumento de los heroes de la batalla del 5 de Mayo</h1>
+           <div>
+            <h3>
+            Mas abajo de los fuertes,donde se libro esa cruenta batalla cuerpo a cuerpo, espada contra espada esta hoy un parque"LAS AMERICAS",esta erigido este monumento que simboliza la bandera Mexicana con los bustos de esos grandes heroes que defendieron nuestra soberania nacional ese 5 de mayo de 1862.
+            </h3>
+           <br>
+           </div>
+           <div>
+             <img src="imagenes/batalla10.jpg" width="100%" height="100%">
+           </div>
+         </div>
+          <div data-role="collapsible" data-content-theme="false">
+             <h1> Estatua al general Ignacio Zaragoza</h1>
+           <div>
+            <h3>
+             Ignacio Zaragoza Seguín (24 de marzo de 1829 – 8 de septiembre de 1862) fue un militar mexicano reconocido como el héroe de la Batalla de Puebla, que tuvo lugar el 5 de mayo de 1862.El informe que el general Zaragoza rindió sobre la Batalla de Puebla al Presidente Benito Juárez fue breve y significativo: "Las armas nacionales se han cubierto de gloria. Las tropas francesas se portaron con valor en el combate y su jefe con torpeza"
+            </h3>
+           <br>
+           </div>
+           <div>
+             <img src="imagenes/batalla11.jpg" width="100%" height="100%">
+           </div>
+         </div>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Aplicación seis, JLVM </h4>
+         <img src="imagenes/logo.png" width="50" height="50">
+      </div>
+       </div>    
+    </div>
+     
+    <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>  Museos de las Batallas </h1>
+     </div>  
+     <div data-role="content" align="center">
+         <div>
+          <h3 align="left">
+            Dar click en los botones, para visitar las páginas web de algunos museos de la batalla de Puebla
+           </h3>
+         </div>
+         <div data-role="collapsible" data-content-theme="false">
+             <h1>Museo "Los Fuertes" </h1>
+             <div style="width:50%"> 
+              <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+               <li class="ui-first-child ui-last-child">
+                 <a href="http://puebla.travel/es/museos/item/museo-de-sitio-fuerte-de-guadalupe" target="_self" data-role="button" id="beep">
+                  <h2> Ir a la Página del Museo "Los fuertes" </h2>
+                </a>
+               </li>   
+              </ul>
+             </div>
+         </div>
+         <div data-role="collapsible" data-content-theme="false">
+             <h1> Museo Interactivo Batalla del 5 de Mayo Puebla </h1>
+            <div style="width:50%"> 
+             <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+              <li class="ui-first-child ui-last-child">
+               <a href="http://puebla.travel/es/museos/item/museo-interactivo-de-la-batalla-del-5-de-mayo" data-role="button" id="beep">
+                <h2> Ir a la Página del Museo 5 de Mayo </h2>
+               </a>
+              </li>   
+             </ul>
+            </div>
+         </div>
+          <div data-role="collapsible" data-content-theme="false">
+             <h1> Centro Cívico Cultural 5 De Mayo</h1>
+             <div style="width:50%"> 
+              <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+               <li class="ui-first-child ui-last-child">
+                <a href="http://puebla.travel/es/organizate/expertos-en-turismo/search/item/centro-civico-cultural-5-de-mayo" target="_self" data-role="button"                  id="beep">
+                 <h2> Ir a la Página del Centro Cultural del 5 de Mayo </h2>
+                </a>
+               </li>   
+              </ul>
+            </div>
+         </div>
+          <div data-role="collapsible" data-content-theme="false">
+             <h1> Túnel 5 de Mayo es convertido en museo</h1>
+            <div style="width:40%"> 
+             <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+              <li class="ui-first-child ui-last-child">
+               <a href="https://www.poblanerias.com/2017/02/tunel-5-de-mayo-es-convertido-en-museo/" target="_self" data-role="button" id="beep">
+                <h2> Ir a la Página del Tunel Convertido en Museo </h2>
+               </a>
+              </li>   
+             </ul>
+            </div>
+           </div>
+         <div align="center">
+           <br>
+             <h3> Página sobre la batalla de Puebla</h3>
+             <a href="http://cincodemayo.bicentenario.gob.mx/" target="_self" target="_self">Ir a la Página de La Batalla de Puebla</a>
+         </div>
+        <div align="center">
+           <br>
+             <h3>Documental que narra la heróica historia del Gral. Ignacio Zaragoza.</h3>
+             <a href="https://www.youtube.com/watch?v=9fbrW_8R4Pw" target="_self">Ir a la Página del Documental</a>
+         </div>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Aplicación seis, JLVM </h4>
+         <img src="imagenes/logo.png" width="50" height="50">
+      </div>
+      </div>    
+     </div> 
+      
+     <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1> Héroes de las Batallas </h1>
+     </div>  
+     <div data-role="content" align="center">
+         <div>
+          <h3 align="left">
+           Estos son algunos héroes de la Batalla de Puebla:
+           </h3>
+         </div>
+         <div data-role="collapsible" data-content-theme="false">
+             <h1>Ignacio Zaragoza </h1>
+           <div>
+           <h3>
+            Famoso militar mexicano quen cuando las fuerzas francesas de Napoleón III invadieron México para imponer como emperador a Maximiliano de Habsburgo, con el rango de general y al mando del Ejército de Oriente, las enfrentó en Acultzingo en la llamada Batalla de Las Cumbres de Acultzingo, el 28 de abril de 1862, siendo obligado a retroceder. Zaragoza comprendió la posición defensiva y favorable que tenía la ciudad de Puebla, paso obligado para ir a la Ciudad de México, y con un ejército más pequeño y menos equipado que los franceses, logró dar una batalla excepcional desde los cerros de Loreto y Guadalupe el 5 de mayo de 1862, en la que el ejército francés fue completamente derrotado, viéndose obligado a retirarse hasta la ciudad de Orizaba, en el estado de Veracruz. El informe que el general Zaragoza rindió sobre la Batalla de Puebla al Secretario de Guerra Miguel Blanco Múzquiz fue breve y significativo: "Las armas nacionales se han cubierto de gloria. Las tropas francesas se portaron con valor en el combate y su jefe con torpeza".
+           </h3>
+           <br>
+           </div>
+           <div>
+            <img src="imagenes/batalla12.jpg" width="100%" height="100%">
+           </div>
+         </div>
+         <div data-role="collapsible" data-content-theme="false">
+             <h1> Miguel Negrete </h1>
+           <div>
+             <h3>
+            Durante la Segunda Intervención Francesa en México, Negrete hizo a un lado su ideología conservadora y participó en la defensa del territorio mexicano, ante el avance de las tropas francesas hacia el centro de México, Negrete reacciona y se pone de parte del bando liberal con su célebre frase "Yo tengo Patria antes que Partido".Unido al ejército republicano y a las órdenes del general Ignacio Zaragoza, ambos se cubren de gloria en la Batalla de Las Cumbres y en la Batalla de Puebla el 5 de mayo de 1862, llegando a ser considerado como el segundo héroe de dicha batalla al defender el Fuerte de Loreto.
+             </h3>
+           <br>
+           </div>
+           <div>
+             <img src="imagenes/batalla13.jpg" width="100%" height="100%">
+           </div>
+         </div>
+          <div data-role="collapsible" data-content-theme="false">
+             <h1> Porfirio Diaz</h1>
+           <div>
+            <h3>
+            El 5 de mayo, el político oaxaqueño y otros militares intervinieron en la Batalla de Puebla, Díaz defendió el ala izquierda de la ciudad, y rebatió en dos ocasiones el ataque francés.  
+En un principio, retirándose en buen orden, los marinos franceses pronto se vieron huyendo en pánico perseguidos por los Lanceros de Oaxaca. Tan precipitada fue su huida, que muchos galos tuvieron que arrojar sus mochilas para poder correr más aprisa de la caballería mexicana.
+            </h3>
+           <br>
+           </div>
+           <div>
+             <img src="imagenes/batalla14.jpg" width="100%" height="100%">
+           </div>
+         </div>
+          <div data-role="collapsible" data-content-theme="false">
+             <h1> Felipe Berriozabal </h1>
+           <div>
+            <h3>
+           Como militar llegó a General y fue ministro de Guerra y Marina. Participó en la Guerra de Reforma y contra la Intervención Francesa. En la batalla del 5 de mayo en Puebla, aseguró el triunfo de los mexicanos al dar alcance con la caballería, junto con el Gral. Porfirio Díaz, a las tropas francesas en retiradas.Actuó bajo las órdenes del general Ignacio Zaragoza al confrontar y derrotar a Leonardo Márquez en las Lomas de Calderón, pero fue hecho prisionero por Miguel Miramón en diciembre de 1860. En 1862, participó en la defensa del Convento San Agustín, en la Batalla de Las Cumbres, y en la Batalla de Puebla. En 1863, fue hecho prisionero por los franceses, logró fugarse uniéndose al presidente Benito Juárez, quien lo designó en 1865 como Ministro de la Guerra.
+            </h3>
+           <br>
+           </div>
+           <div>
+             <img src="imagenes/batalla15.jpg" width="100%" height="100%">
+           </div>
+         </div>
+          <div data-role="collapsible" data-content-theme="false">
+             <h1>Benito Juarez</h1>
+           <div>
+            <h3>
+             El presidente de México, Benito Juárez, fue inteligente y detectó con tiempo el peligro inminente que representaba una posibilidad real de una invasión francesa, reaccionó ordenando el traslado de pertrechos y la fortificación de la ciudad de Puebla, creando una unidad militar, a la que se le nombró: “el ejercito de Oriente”, que originalmente estaba bajo el mando del General López Uraga, pero que fue tan deficiente su desempeño mostrado como líder militar, que Benito Juárez decidió relevarlo y utilizar a su mejor estratega militar (un experto en emboscadas y en guerra de guerrillas) el General Ignacio Zaragoza, quién dejó el ministerio de defensa a su cargo y se dirigió hacía puebla para organizar la oposición al frente bélico que podía representar Francia. 
+            </h3>
+           <br>
+           </div>
+           <div>
+             <img src="imagenes/batalla16.jpg" width="100%" height="100%">
+           </div>
+         </div>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Aplicación seis, JLVM </h4>
+         <img src="imagenes/logo.png" width="50" height="50">
+      </div>
+       </div>    
+    </div>
+     
+</body>
+</html>
+    
